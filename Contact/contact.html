@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+
+
+
+    <title>Contact</title>
+</head>
+
+<body>
+    
+    <nav class="purpleNavbar width100 flexRow justEvenly">
+        <div class="navbarLeft flexRow">
+            <i class="fa-regular fa-building font20 cursorPointer"></i>
+            <p class="purple cursorPointer">Purple</p>
+            <p class="buzz cursorPointer">Buzz</p>
+        </div>
+
+        <div class="navbarMid">
+            <button onclick="myFunction()" class="dropbtn">
+                <i class="fa-solid fa-bars navbarDropDown"></i>
+            </button>
+
+            <ul class="navlist width100 flexRow" id="navbarList">
+                <li class="home navLi"> <a href="purple.html" class="navColor font15 navPreference ">Home</a> </li>
+                <li class="about navLi"><a href="about.html" class="navColor font15 navPreference ">About</a> </li>
+                <li class="work navLi"><a href="work.html"class="navColor font15 navPreference">Work</a> </li>
+                <li class="pricing navLi"><a href="pricing.html" class="navColor font15 navPreference">Pricing</a> </li>
+                <li class="contact navLi"><a href="contact.html" class= "navColor font15 navPreference">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="navbarRight flexRow navRightColor ">
+            <i class="fa-regular fa-bell font21 cursorPointer"></i>
+            <i class="fa-solid fa-gear margin060 font21 cursorPointer"></i>
+            <i class="fa-regular fa-circle-user font21 cursorPointer"></i>
+        </div>
+    </nav>
+
+    <div class="contactSection1 flexRow">
+        <div class="contactSection1Left flexColumn width50">
+            <h1 class="contactTittle1">Contact</h1>
+            <h3 class="contactText1">Elit, sed do eiusmod tempor
+            </h3>
+            <p class="contactText2">Vector illustration is from
+                <a href="https://storyset.com/" class="storyset">StorySet</a>
+                .Incididunt ut labore et dolore magna aliqua. Quis ipsum
+                suspendisse ultrices gravida.
+            </p>
+        </div>
+        <img src="img/contact.svg" alt="" class="contactSection1RightImage width50">
+    </div>
+
+    <div class="contactSection2 flexColumn">
+        <div class="contactSec2TopInfo flexColumn">
+            <h1 class="contactTittle1">Create success campaign with us!
+            </h1>
+            <h3 class="contactText1">Elit, sed do eiusmod tempor </h3>
+            <p class="sec2contactText2"> Incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis. Laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                in voluptate.
+            </p>
+        </div>
+        <div class="contactSec2Communication flexRow">
+            <div class="contactCommunicationLeft">
+                <div class="communication flexRow alignCenter">
+                    <div class="communicationIcons">
+                        <i class="fa-solid fa-newspaper communicationIcon"></i>
+                    </div>
+                    <div class="communicationInfo flexColumn">
+                        <h1 class="communicationInfoTitle">Media Contact
+                        </h1>
+                        <h1 class="communicationInfoName communicationNameNumber">Mr. John Doe</h1>
+                        <h1 class="communicationInfoNumber communicationNameNumber">010-020-0340
+                        </h1>
+                    </div>
+                </div>
+                <div class="communication flexRow alignCenter">
+                    <div class="communicationIcons">
+                        <i class="fa-solid fa-laptop communicationIcon"></i>
+                    </div>
+                    <div class="communicationInfo flexColumn">
+                        <h1 class="communicationInfoTitle">Media Contact
+                        </h1>
+                        <h1 class="communicationInfoName communicationNameNumber">Mr. John Doe</h1>
+                        <h1 class="communicationInfoNumber communicationNameNumber">010-020-0340
+                        </h1>
+                    </div>
+                </div>
+                <div class="communication flexRow alignCenter">
+                    <div class="communicationIcons">
+                        <i class="fa-solid fa-money-bill communicationIcon"></i>
+                    </div>
+                    <div class="communicationInfo flexColumn">
+                        <h1 class="communicationInfoTitle">Media Contact
+                        </h1>
+                        <h1 class="communicationInfoName communicationNameNumber">Mr. John Doe</h1>
+                        <h1 class="communicationInfoNumber communicationNameNumber">010-020-0340
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="contactCommunicationRightForm width70 flexColumn">
+                <div class="contactFormRow justBetween flexRow width100">
+                    <input type="text" class="name  contactInputFocus width45 first5Input margin0420"
+                        placeholder="Name">
+                    <input type="email" class="email contactInputFocus width45 first5Input margin0420"
+                        placeholder="Email">
+                </div>
+                <div class="contactFormRow justBetween width100 flexRow">
+                    <input type="tel" class="phone width45 contactInputFocus first5Input margin0420"
+                        placeholder="Phone">
+                    <input type="text" class="companyName  contactInputFocus width45 first5Input margin0420"
+                        placeholder="Company Name">
+                </div>
+                <input type="text" class="subject contactInputFocus width92 first5Input margin0420"
+                    placeholder="Subjecty">
+                <input type="text" class="message contactInputFocus width92 " placeholder="Message">
+                <div class="formSendMessageBtn width92 flexRow">
+                    <button class="formSendMessage width100">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footerRow flexRow ">
+            <div class="footerRowInColumns marleft_4 alignCenter">
+                <div class="purpleBuzzColumn1 flexRow alignCenter marBottom_9">
+                    <i class="fa-regular fa-building font25 whiteColor marRight_4 cursorPointer"></i>
+                    <p class="FooterRowInColumnsText font20 whiteColor open600family cursorPointer">Purple Buzz</p>
+                </div>
+                <p class="purpleBuzzColumn2 whiteColor font20">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit,
+                    sed do eiusmod tempor incididunt ut.</p>
+                <div class="purpleBuzzColumn3Icons">
+                    <i class="fa-brands fa-square-facebook font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-linkedin font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-flickr font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-square-whatsapp font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                </div>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <p class="ourCompanyFooter marleft_28 whiteColor font28 marBottom_9">Our Company </p>
+                <ul class="ourCompanyLists flexColumn listNone">
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Home</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        About Us</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Work</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Price</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Contact</li>
+                </ul>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <p class="ourWorksFooter whiteColor font28 marBottom_9">Our Works </p>
+                <ul class="ourWorksLists flexColumn listNone">
+                    <li class="ourWorksList whiteColor font15 open600family marBottom_6 letterSpacing_1">Branding
+                    </li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Business</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Marketing</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Social Media</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Digital Solution</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Graphic</li>
+                </ul>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <div class="forClient whiteColor font28 marRight_33 marBottom_9">For Client</div>
+                <div class="communicates">
+                    <div
+                        class="communicate whiteColor font15 marBottom_6 letterSpacing_1 open600family opacity06 cursorPointer">
+                        <i
+                            class="fa-solid fa-phone communicateIcon whiteColor marBottom_6 letterSpacing_1 marRight7 "></i>010-020-0340
+                    </div>
+                    <div
+                        class="communicate whiteColor font15 marBottom_6 letterSpacing_1 open600family opacity06 cursorPointer">
+                        <i
+                            class="fa-solid fa-envelope-open-text communicateIcon letterSpacing_1 marBottom_6 whiteColor marRight7"></i>info@company.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerRow2">
+            <p class="footerRow2Text whiteColor letterSpacing_1">© Copyright 2021 Purple Buzz Company. All Rights
+                Reserved. </p>
+            <div class="flexRow footerRow2Son width40">
+                <p class="footerRow2Text2 whiteColor letterSpacing_1 marLeft16">The frontend design was made by </p>
+                <!-- <p class="frontendDesign whiteColor letterSpacing_1 marLeft1">BETÜL BÜYÜKZENGİN</p> -->
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

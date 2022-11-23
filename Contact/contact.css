@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+/* Static ClassName */
+
+.marRight7 {
+    margin-right: 7%;
+}
+
+.marRight_33 {
+    margin-right: 33%;
+}
+
+.letterSpacing_1 {
+    letter-spacing: 1px;
+}
+
+.marBottom_6 {
+    margin-bottom: 6%;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.listNone {
+    list-style: none;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.marleft_28 {
+    margin-left: 28%;
+}
+
+.font35 {
+    font-size: 35px;
+}
+
+.marleft_20 {
+    margin-left: 20%;
+}
+
+.opacity06:hover {
+    opacity: 0.6;
+}
+
+.marleft_4 {
+    margin-left: 4%;
+}
+
+.marBottom_9 {
+    margin-bottom: 9%;
+}
+
+.font25 {
+    font-size: 25px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.marRight_4 {
+    margin-right: 4%;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.open600family {
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+
+.justBetween {
+    justify-content: space-between;
+}
+
+.width70 {
+    width: 70%;
+}
+
+.width45 {
+    width: 45%;
+}
+
+.width92 {
+    width: 92%;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.justCenter {
+    justify-content: center;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.margin060 {
+    margin: 0 60%;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.font21 {
+    font-size: 21px;
+}
+
+.textDecNone {
+    text-decoration: none;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.justEvenly {
+    justify-content: space-evenly;
+}
+
+/* NAVBAR */
+.dropbtn {
+    display: none;
+}
+
+.navPreference {
+    text-decoration: none;
+    padding: 20% 33%;
+    border-radius: 56px;
+}
+
+.purpleNavbar {
+    align-items: center;
+    padding: 2% 0;
+    /* position:fixed; */
+    box-shadow: 20px -9px 20px 9px;
+    color: gray;
+}
+
+.navLi {
+    width: 10%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navColor:hover {
+    color: white;
+    background-color: #4232c2;
+    border-color: #4232c2;
+}
+
+.navbarLeft {
+    align-items: center;
+}
+
+.navbarRight {
+    margin-right: 7%;
+}
+
+.navbarMid {
+    width: 40%;
+}
+
+.opacity06:hover {
+    opacity: 0.6;
+}
+
+.navlist {
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.purple {
+    margin: 0 5%;
+    font-size: 24px;
+    color: #212529;
+    font-weight: 500;
+}
+
+.buzz {
+    font-size: 24px;
+    font-weight: 500;
+    color: #4232C2;
+}
+
+.navColor {
+    color: rgb(0, 0, 0)
+}
+
+.navRightColor {
+    color: #4232c2 !important;
+}
+
+.navColor:hover {
+    color: white;
+    background-color: #4232c2;
+    border-color: #4232c2;
+}
+
+
+
+/**/
+/**/
+.contactSection1 {
+    padding: 6%;
+}
+
+.contactTittle1 {
+    color: #4232c2;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.contactText1 {
+    color: #212529;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 4% 0 2% 0;
+
+}
+
+.contactText2 {
+    color: #212529;
+    width: 60%;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.storyset {
+    font-weight: 400;
+    color: #4232c2;
+}
+
+.contactSection2 {
+    padding: 6%;
+}
+
+.contactCommunicationLeft {
+    width: 30%;
+}
+
+.communication {
+    justify-content: space-between;
+    width: 74%;
+    margin: 0 0 12% 0;
+}
+
+.communicationIcons {
+    width: 30%;
+}
+
+.contactSec2Communication {
+    margin: 5% 0;
+}
+
+.communicationIcon {
+    color: #6266ea;
+    padding: 12%;
+    font-size: 35px;
+    border: 1px solid #dee2e6;
+    width: 100%;
+    text-align: center;
+
+}
+
+.communicationInfoTitle {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 500;
+}
+
+.communicationNameNumber {
+    color: #6c757D;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.sec2contactText2 {
+    color: #6c757d;
+    font-weight: 300;
+    font-size: 16px;
+    width: 66%;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+
+}
+
+.first5Input {
+    font-size: 16px;
+    padding: 2%;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+.message {
+    font-size: 16px;
+    padding: 2% 2% 12% 2%;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+.margin0420 {
+    margin: 0 4% 2% 0;
+}
+
+.contactInputFocus:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.formSendMessage {
+    padding: 1.5%;
+    border-radius: 20px;
+    width: 25%;
+    cursor: pointer;
+    color: #dee2e6;
+    background-color: #4232c2;
+    border: 1px solid #4232c2;
+}
+
+.formSendMessageBtn {
+    justify-content: end;
+    margin: 4% 0;
+    width: 97%;
+}
+
+.formSendMessage:focus {
+    box-shadow: 0 0 0 0.25rem rgb(83 87 199 / 50%);
+
+}
+
+.formSendMessage:hover {
+    background-color: #7a7ded;
+    border-color: #7275ec;
+}
+
+
+
+
+/* Footer */
+footer {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    background-color: #6266ea;
+}
+
+.footerRowInColumns {
+    width: 25%;
+}
+
+.communicates {
+    width: 68%;
+}
+
+.purpleBuzzColumn2 {
+    width: 90%;
+    margin: 13% 0;
+}
+
+.purpleBuzzColumn1 {
+    width: 88%;
+}
+
+.footerRow {
+    padding: 5% 0;
+}
+
+.footerRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3% 0;
+    background-color: #4232c2;
+}
+
+.purpleBuzzColumn3Icons {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+
+}
+
+.ourCompanyFooter {
+    margin: 0;
+}
+
+/* ourCompanyLists{} */
+
+.ourWorksFooter {
+    margin: 0;
+}
