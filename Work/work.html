@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Work</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ -->
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="work.css">
+    <title>Work</title>
+
+</head>
+
+
+<script>
+    $(document).ready(function () {
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+        });
+    });
+</script>
+
+
+<body>
+
+    <nav class="purpleNavbar width100 flexRow justEvenly ">
+        <div class="navbarLeft flexRow">
+            <i class="fa-regular fa-building font20 cursorPointer"></i>
+            <p class="purple cursorPointer">Purple</p>
+            <p class="buzz cursorPointer">Buzz</p>
+        </div>
+
+        <div class="navbarMid">
+            <button onclick="myFunction()" class="dropbtn">
+                <i class="fa-solid fa-bars navbarDropDown"></i>
+            </button>
+
+            <ul class="navlist width100 flexRow" id="navbarList">
+                <li class="home navLi"> <a href="purple.html" class="navColor font15 navPreference ">Home</a> </li>
+                <li class="about navLi"><a href="about.html" class="navColor font15 navPreference ">About</a> </li>
+                <li class="work navLi"><a href="work.html"class="navColor font15 navPreference">Work</a> </li>
+                <li class="pricing navLi"><a href="pricing.html" class="navColor font15 navPreference">Pricing</a> </li>
+                <li class="contact navLi"><a href="contact.html" class= "navColor font15 navPreference">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="navbarRight flexRow navRightColor ">
+            <i class="fa-regular fa-bell font21 cursorPointer"></i>
+            <i class="fa-solid fa-gear margin060 font21 cursorPointer"></i>
+            <i class="fa-regular fa-circle-user font21 cursorPointer"></i>
+        </div>
+    </nav>
+    <div class="ourWork flexColumn justCenter alignCenter">
+        <p class="ourWorkHead">Our Work</p>
+        <hr style="width: 14%;
+        margin: 2% 0 2% 1%;
+        border: 3px solid #6266ea;">
+        <div class="ourWorkParagraphy flexColumn alignCenter">
+            <p class="ourWorkText1">Elit, sed do eiusmod tempor incididunt
+            </p>
+            <p class="ourWorkText2 width50 textCenter">Vector illustration Freepik. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
+                viverra maecenas accumsan lacus.
+
+            </p>
+        </div>
+        <div class="ourWorkBtn flexRow justCenter width100">
+            <button class="learnMore mar2">Learn More</button>
+            <button class="contactUs mar2"> Contact Us</button>
+        </div>
+    </div>
+
+    <div class="workCategCardSection">
+        <div class="workCardCategory flexRow pad7_5 justCenter">
+            <ul class=" workCategNavbar nav-tabs flexRow justSpace  listStyle alignCenter width50">
+                <li class="active workLiStyle"><a href="#all" class="workCategory ">All</a></li>
+                <li class="workLiStyle"> <a href="#business" class="workCategory ">Business</a> </li>
+                <li class="workLiStyle"><a href="#marketing" class="workCategory ">Marketing</a></li>
+                <li class="workLiStyle"> <a href="#socialMedia" class="workCategory ">Social Media</a> </li>
+                <li class="workLiStyle"> <a href="#graphic" class="workCategory ">Graphic</a> </li>
+            </ul>
+        </div>
+
+
+        <div class="tab-content">
+            <div id="all" class="workCards workRowCards  tab-pane fade in active ">
+                <div class="flexRowWrap">
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard1.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Digital Marketing</p>
+                            <p class="workcardText workCardTexts">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolor.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard2.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Corporate Branding</p>
+                            <p class="workcardText workCardTexts">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard3.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Leading Digital Solution</p>
+                            <p class="workcardText workCardTexts">
+                                Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiatdolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard4.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Smart Applications</p>
+                            <p class="workcardText workCardTexts">
+                                Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard5.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Corporate Stationary</p>
+                            <p class="workcardText workCardTexts">
+                                Excepteur sint occaecat cupidatat non proident,
+                                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard6.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">8 Financial Tips</p>
+                            <p class="workcardText workCardTexts">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="business" class="workCards  tab-pane fade workRowCards ">
+                <div class="flexRowWrap">
+
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard1.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Digital Marketing</p>
+                            <p class="workcardText workCardTexts">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolor.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard3.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Leading Digital Solution</p>
+                            <p class="workcardText workCardTexts">
+                                Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiatdolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard4.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Smart Applications</p>
+                            <p class="workcardText workCardTexts">
+                                Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="marketing" class="workCards  tab-pane fade workRowCards ">
+                <div class="flexRowWrap">
+
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard1.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Digital Marketing</p>
+                            <p class="workcardText workCardTexts">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolor.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="work.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard2.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Corporate Branding</p>
+                            <p class="workcardText workCardTexts">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard3.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Leading Digital Solution</p>
+                            <p class="workcardText workCardTexts">
+                                Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiatdolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard6.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">8 Financial Tips</p>
+                            <p class="workcardText workCardTexts">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="socialMedia" class="workCards  tab-pane fade workRowCards ">
+                <div class="flexRowWrap">
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard1.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Digital Marketing</p>
+                            <p class="workcardText workCardTexts">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolor.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard2.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Corporate Branding</p>
+                            <p class="workcardText workCardTexts">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard4.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Smart Applications</p>
+                            <p class="workcardText workCardTexts">
+                                Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="graphic" class="workCards  tab-pane fade workRowCards ">
+                <div class="flexRowWrap">
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard2.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Corporate Branding</p>
+                            <p class="workcardText workCardTexts">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard3.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">Leading Digital Solution</p>
+                            <p class="workcardText workCardTexts">
+                                Duis aute irure dolor in reprehenderit in voluptate velit
+                                esse cillum dolore eu fugiatdolore eu fugiat nulla pariatur.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <div class="workRowCard width28">
+                        <img class="workCardPicture width100" src="img/workCard6.png" alt="">
+                        <div class="workRowCardParag flexColumn">
+                            <p class="workCardHead workCardTexts">8 Financial Tips</p>
+                            <p class="workcardText workCardTexts">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <a class="textDecNone" href="digitalMarketing.html">
+                            <button" class="readMore workCardTexts">Read More
+                                <i class="fa-solid fa-hand-point-right marLeft3"></i>
+                                </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="transformWithUs flexRow ">
+        <div class="transformWithUsParagr width50 flexColumn justCenter">
+            <h3 class="transfParagticket">Featured Work</h3>
+            <h1 class="transfParagHead">Transform with us</h1>
+            <p class="transfParagText">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                accumsan
+                lacus vel facilisis.
+            </p>
+            <p class="transfParagText">Consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                Risus commodo viverra maecenas.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                eu fugiat nulla pariatur.
+            </p>
+        </div>
+        <div class="transformWithUsImages flexColumn width50">
+            <div class="transformImagesRow width100 flexRow">
+                <img class="transformImage width50" src="img/transfImage1.jpg" alt="">
+                <img class="transformImage width50" src="img/transfImage2.jpg" alt="">
+            </div>
+            <div class="transformImagesRow width100 flexRow">
+                <img class="transformImage width50" src="img/transfImage3.jpg" alt="">
+                <img class="transformImage width50" src="img/transfImage4.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footerRow flexRow ">
+            <div class="footerRowInColumns marleft_4 alignCenter">
+                <div class="purpleBuzzColumn1 flexRow alignCenter marBottom_9">
+                    <i class="fa-regular fa-building font25 whiteColor marRight_4 cursorPointer"></i>
+                    <p class="FooterRowInColumnsText font20 whiteColor open600family cursorPointer">Purple Buzz</p>
+                </div>
+                <p class="purpleBuzzColumn2 whiteColor font20">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit,
+                    sed do eiusmod tempor incididunt ut.</p>
+                <div class="purpleBuzzColumn3Icons">
+                    <i class="fa-brands fa-square-facebook font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-linkedin font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-flickr font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-square-whatsapp font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                </div>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <p class="ourCompanyFooter marleft_28 whiteColor font28 marBottom_9">Our Company </p>
+                <ul class="ourCompanyLists flexColumn listNone">
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Home</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        About Us</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Work</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Price</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Contact</li>
+                </ul>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <p class="ourWorksFooter whiteColor font28 marBottom_9">Our Works </p>
+                <ul class="ourWorksLists flexColumn listNone">
+                    <li class="ourWorksList whiteColor font15 open600family marBottom_6 letterSpacing_1">Branding
+                    </li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Business</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Marketing</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Social Media</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Digital Solution</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Graphic</li>
+                </ul>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <div class="forClient whiteColor font28 marRight_33 marBottom_9">For Client</div>
+                <div class="communicates">
+                    <div
+                        class="communicate whiteColor font15 marBottom_6 letterSpacing_1 open600family opacity06 cursorPointer">
+                        <i
+                            class="fa-solid fa-phone communicateIcon whiteColor marBottom_6 letterSpacing_1 marRight7 "></i>010-020-0340
+                    </div>
+                    <div
+                        class="communicate whiteColor font15 marBottom_6 letterSpacing_1 open600family opacity06 cursorPointer">
+                        <i
+                            class="fa-solid fa-envelope-open-text communicateIcon letterSpacing_1 marBottom_6 whiteColor marRight7"></i>info@company.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerRow2">
+            <p class="footerRow2Text whiteColor letterSpacing_1">© Copyright 2021 Purple Buzz Company. All Rights
+                Reserved. </p>
+            <div class="flexRow footerRow2Son width40">
+                <p class="footerRow2Text2 whiteColor letterSpacing_1 marLeft16">The frontend design was made by </p>
+                <!-- <p class="frontendDesign whiteColor letterSpacing_1 marLeft1">BETÜL BÜYÜKZENGİN</p> -->
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
