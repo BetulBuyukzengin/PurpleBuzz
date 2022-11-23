@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    top: 0 !important;
+    transform: none !important;
+
+}
+
+/* Static ClassName */
+
+.marRight7 {
+    margin-right: 7%;
+}
+
+.marRight_33 {
+    margin-right: 33%;
+}
+
+.letterSpacing_1 {
+    letter-spacing: 1px;
+}
+
+.marBottom_6 {
+    margin-bottom: 6%;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.listNone {
+    list-style: none;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+.marleft_28 {
+    margin-left: 28%;
+}
+
+.font35 {
+    font-size: 35px;
+}
+
+.marleft_20 {
+    margin-left: 20%;
+}
+
+.opacity06:hover {
+    opacity: 0.6;
+}
+
+.marleft_4 {
+    margin-left: 4%;
+}
+
+.marBottom_9 {
+    margin-bottom: 9%;
+}
+
+.font25 {
+    font-size: 25px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.marRight_4 {
+    margin-right: 4%;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.open600family {
+    font-family: 'Open Sans';
+    font-weight: 600;
+}
+
+.margin060 {
+    margin: 0 60%;
+}
+
+.font21 {
+    font-size: 21px;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.evenly {
+    justify-content: space-evenly;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.justCenter {
+    justify-content: center;
+
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.alignFlexStart {
+    align-items: flex-start;
+}
+
+.mar4_0 {
+    margin: 4% 0;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/* NAVBAR */
+.dropbtn {
+    display: none;
+}
+
+.navPreference {
+    text-decoration: none;
+    padding: 20% 33%;
+    border-radius: 56px;
+}
+
+.purpleNavbar {
+    align-items: center;
+    padding: 2% 0;
+    /* position:fixed; */
+    box-shadow: 20px -9px 20px 9px;
+    color: gray;
+}
+
+.navLi {
+    width: 10%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navbarLeft {
+    align-items: center;
+}
+
+.navbarRight {
+    margin-right: 7%;
+}
+
+.navbarMid {
+    width: 40%;
+}
+
+.opacity06:hover {
+    opacity: 0.6;
+}
+
+.navlist {
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.purple {
+    margin: 0 5%;
+    font-size: 24px;
+    color: #212529;
+    font-weight: 500;
+}
+
+.buzz {
+    font-size: 24px;
+    font-weight: 500;
+    color: #4232C2;
+}
+
+.navColor {
+    color: rgb(0, 0, 0)
+}
+
+.navRightColor {
+    color: #4232c2 !important;
+}
+
+.navColor:hover {
+    color: white;
+    background-color: #4232c2;
+    border-color: #4232c2;
+}
+
+
+
+
+/**/
+.digitalMarketingSection1 {
+    width: 100%;
+    background-image: url(img/work.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 31rem;
+}
+
+.digitalMarketingHead {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #F6F9FE;
+}
+
+.digitalMarketingText1 {
+    font-size: 28px;
+    color: #F6F9FE;
+}
+
+.digitalMarketingText2 {
+    font-size: 18px;
+    color: #F6F9FE;
+}
+
+.digitalMarketingSection2 {
+    padding: 12% 22%;
+
+}
+
+/**/
+.digitalMarkSection2Head {
+    color: #212529;
+    font-size: 28px;
+}
+
+.digitalMarketingSection2Text {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.digitalMarketingSection2_Paragr {
+    width: 100%;
+}
+
+/*Sliders*/
+.digitalSlides {
+    width: 100%;
+    height: 30rem;
+}
+
+.digitalMarkSliderDoC {
+    width: 20%;
+}
+
+.sliderDocPhoto {
+    width: 100%;
+    cursor: pointer;
+}
+
+.digitalMarketingSecSliderAltDoc {
+    padding: 9%;
+}
+
+.butnrgh {
+    right: 0%;
+    margin: 0 23% 0 0;
+}
+
+.butnleft {
+
+    left: 0%;
+    margin: 0 0 0 23%;
+}
+
+.endSliderText {
+    font-size: 18px;
+    color: #6c757d;
+
+}
+
+.digitalMarkParagraphy1 {
+    font-size: 40px;
+    color: #212529;
+    font-style: italic;
+    border-left: 1px solid #dee2e6;
+    border-width: 5px;
+    margin: 3% 0
+}
+
+.digitalMarkParagraphy2 {
+    font-size: 18px;
+    color: #6c757d;
+    font-weight: 300;
+}
+
+.videosBottom {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+/**/
+.userComments {
+    margin: 2% 0;
+}
+
+.Comment {
+    margin: 2% 0;
+}
+
+.CommentHead {
+    font-size: 20px;
+    color: #212529;
+    font-weight: bold;
+}
+
+.userProfilePhoto {
+    border-radius: 40px;
+    height: 60px;
+    margin: 0 4% 0 0;
+}
+
+.userName {
+    color: #212529;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.commentTime {
+    font-size: 18px;
+    color: #6c757d;
+    border: none;
+    text-align: start;
+}
+
+.reply {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #6266ea;
+    width: 126%;
+    border: none;
+    justify-content: space-evenly;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.replyIcon {
+    color: #6266ea;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
+.userProfileName_commentTimeColumn {
+    width: 1000%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.commentTime {
+    width: 20%;
+    background-color: white;
+}
+
+.userProfileInfoBottom {
+    width: 100%;
+    font-size: 18px;
+    color: #212529;
+    margin: 2% 0;
+    border: 1px solid #dee2e6;
+    padding: 4%;
+}
+
+/**/
+
+.leaveCommentForm {
+    width: 100%;
+    margin: 2% 0;
+}
+
+.inputYourComment {
+    padding: 2% 0 17% 2%;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 100;
+    border: 1px solid #ced4da;
+}
+
+.digitalMarketingInputFocus:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.leaveCommentInput:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(66 50 194 / 25%);
+}
+
+.leaveCommentInput {
+    font-size: 20px;
+    width: 100%;
+    font-weight: 100;
+    padding: 3% 0 3% 5%;
+    border: 1px solid #ced4da;
+}
+
+.leaveInputsTopText {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 2% 0;
+    color: #212529;
+}
+
+.leaveComment {
+    font-size: 20px;
+    color: #212529;
+    font-weight: bold;
+}
+
+.leaveCommentBtn {
+    color: white;
+    font-weight: 100;
+    background-color: #6266ea;
+    border: 1px solid#6266ea;
+    padding: 16px 22px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.leaveCommentBtn:focus {
+    border-color: #a199e1;
+    outline: 0;
+    box-shadow: 0 0 0 0.35rem rgb(66 50 194 / 35%);
+}
+
+.leaveCommentBtn:hover {
+    border: 1px solid #7275ec;
+    background-color: #7a7ded;
+
+}
+
+.leaveCommentFormBottom {
+    margin: 2% 0;
+    justify-content: space-between;
+}
+
+.leaveCommentButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.leaveCommentTopMail {
+    width: 90%
+}
+
+.leaveCommentBotName {
+    width: 90%;
+    margin: 0 3% 0 0;
+
+}
+
+/**/
+.textDecorNone {
+    text-decoration: none;
+}
+
+.digitalMarketingSection3 {
+    padding: 4%;
+}
+
+.relatedPostCard {
+    margin: 2%;
+    cursor: pointer;
+    border: 1px solid #dee2e6;
+
+}
+
+.relatedPostHead {
+    font-size: 40px;
+    color: #212529;
+    font-weight: bold;
+}
+
+.relatedCardInfo {
+    padding: 9% 0 9% 7%;
+
+}
+
+.relatedCardInfoHead {
+    font-size: 16px;
+    color: #212529;
+    font-weight: bold;
+}
+
+.relatedCardInfoText {
+    font-size: 16px;
+    color: #212529;
+    margin: 3% 0;
+}
+
+.relatedCardInfoButton {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.relatedCardInfoBtn {
+    color: #4232c2;
+    border: none;
+}
+
+.digitalMarketinginteractionIcon {
+    color: #35289b;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.digitalMInteraction {
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+
+
+/* Footer */
+footer {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    background-color: #6266ea;
+}
+
+.footerRowInColumns {
+    width: 25%;
+}
+
+.communicates {
+    width: 68%;
+}
+
+.purpleBuzzColumn2 {
+    width: 90%;
+    margin: 13% 0;
+}
+
+.purpleBuzzColumn1 {
+    width: 88%;
+}
+
+.footerRow {
+    padding: 5% 0;
+}
+
+.footerRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 3% 0;
+    background-color: #4232c2;
+}
+
+.purpleBuzzColumn3Icons {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+
+}
+
+.ourCompanyFooter {
+    margin: 0;
+}
+
+/* ourCompanyLists{} */
+
+.ourWorksFooter {
+    margin: 0;
+}

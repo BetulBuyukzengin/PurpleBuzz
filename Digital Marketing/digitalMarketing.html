@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Coda&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="digitalMarketing.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="digitalMarketing.js"></script>
+    <title>Digital Marketing</title>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+    <nav class="purpleNavbar width100 flexRow evenly">
+        <div class="navbarLeft flexRow">
+            <i class="fa-regular fa-building font20 cursorPointer"></i>
+            <p class="purple cursorPointer">Purple</p>
+            <p class="buzz cursorPointer">Buzz</p>
+        </div>
+
+        <div class="navbarMid">
+            <button onclick="myFunction()" class="dropbtn">
+                <i class="fa-solid fa-bars navbarDropDown"></i>
+            </button>
+
+            <ul class="navlist width100 flexRow" id="navbarList">
+                <li class="home navLi"> <a href="purple.html" class="navColor font15 navPreference ">Home</a> </li>
+                <li class="about navLi"><a href="about.html" class="navColor font15 navPreference ">About</a> </li>
+                <li class="work navLi"><a href="work.html" class="navColor font15 navPreference">Work</a> </li>
+                <li class="pricing navLi"><a href="pricing.html" class="navColor font15 navPreference">Pricing</a> </li>
+                <li class="contact navLi"><a href="contact.html" class="navColor font15 navPreference">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="navbarRight flexRow navRightColor ">
+            <i class="fa-regular fa-bell font21 cursorPointer"></i>
+            <i class="fa-solid fa-gear margin060 font21 cursorPointer"></i>
+            <i class="fa-regular fa-circle-user font21 cursorPointer"></i>
+        </div>
+    </nav>
+
+    <div class="digitalMarketingSection1 flexColumn justCenter alignCenter">
+        <p class="digitalMarketingHead">Digital Marketing</p>
+        <hr style="width: 14%;
+            margin: 2% 0 2% 1%;
+            border: 3px solid #6266ea;">
+        <div class="digitalMarketingParagraphy flexColumn alignCenter">
+            <p class="digitalMarketingText1"> Voluptatem accusantium doloremque
+            </p>
+            <p class="digitalMarketingText2 width50 textCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer ut ipsum eu libero venenatis
+                euismod.
+            </p>
+        </div>
+    </div>
+    <div class="digitalMarketingSection2 flexColumn ">
+        <div class="digitalMarketingSection2_Paragr flexColumn ">
+            <p class="digitalMarkSection2Head">Digital Marketing Service </p>
+            <hr style="width: 20%;
+        margin: 2% 0 2% 1%;
+        border: 3px solid #6266ea;">
+            <p class="digitalMarketingSection2Text">Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+
+        <div class="digitalMarketingSecSlider width100 flexColumn">
+            <img class="digitalSlides" style="display:none;" src="img/leaf.jpg">
+            <img class="digitalSlides" style="display:none;" src="img/lemon.jpg">
+            <img class="digitalSlides" src="img/bike.jpg">
+            <img class="digitalSlides" style="display:none;" src="img/transfImage2.jpg">
+            <img class="digitalSlides" style="display:none;" src="img/recent2.png">
+            <img class="digitalSlides" style="display:none;" src="img/milk.jpg">
+
+            <div class="digitalMarketingSecSliderAltDoc flexRow">
+                <div class="digitalMarkSliderDoC">
+                    <img class="sliderDocPhoto" src="img/leaf.jpg" onclick="currentDiv(1)">
+                </div>
+                <div class="digitalMarkSliderDoC">
+                    <img class="sliderDocPhoto" src="img/lemon.jpg" onclick="currentDiv(2)">
+                </div>
+                <div class="digitalMarkSliderDoC">
+                    <img class="sliderDocPhoto" src="img/bike.jpg" onclick="currentDiv(3)">
+                </div>
+                <div class="digitalMarkSliderDoC">
+                    <img class="sliderDocPhoto" src="img/transfImage2.jpg" onclick="currentDiv(4)">
+                </div>
+                <div class="digitalMarkSliderDoC">
+                    <img class="sliderDocPhoto" src="img/recent2.png" onclick="currentDiv(5)">
+                </div>
+                <div class="digitalMarkSliderDoC">
+                    <img class="sliderDocPhoto" src="img/milk.jpg" onclick="currentDiv(6)">
+                </div>
+            </div>
+        </div>
+        <div class="digitalMarkEndSlider width100">
+            <p class="endSliderText width100">You are permitted to download, modify and use Purple Buzz template
+                for your websites. You are not permitted to re-distribute this template ZIP file on any other
+                template websites. It is super easy to simply copy and repost the ZIP file on any Free CSS template
+                websites.</p>
+        </div>
+        <div class="digitalMarketingParagraphyies">
+            <p class="digitalMarkParagraphy1">"Vestibulum vestibulum est eu lorem laoreet
+                suscipit. Duis auctor, metus vel sollicitudin hendrerit, elit neque pulvinar magna,
+                non sodales orci turpis blandit quam."
+            </p>
+            <p class="digitalMarkParagraphy2">Nam tortor quam, aliquet vel nibh sit amet,
+                faucibus bibendum nisl. Donec vehicula nulla justo, vel sodales massa vestibulum nec.
+                Praesent non orci sed massa fringilla rutrum at et odio. Quisque est orci, elementum sed
+                neque ac, suscipit consectetur leo. Cras fermentum luctus cursus. Ut porta, augue vel tempus congue,
+                augue purus vulputate ex, lacinia lobortis arcu metus sed
+                lectus.
+            </p>
+        </div>
+        <div class="DigitalWorkVideos mar4_0 width100">
+            <iframe class="digitalWorkvideos" width="100%" height="480"
+                src="https://www.youtube.com/embed/1z--ZRS5x5U?start=114" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <p class="videosBottom">Ed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
+            facilisis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.
+
+        </p>
+        <div class="userComments with100">
+            <p class="CommentHead width100">Comments</p>
+            <div class="Comment width100 flexRow">
+                <!-- <div class="userProfilePhoto"></div> -->
+                <img src="img/profile1.jpg" alt="" class="userProfilePhoto">
+                <div class="userProfileInfo width100">
+                    <div class="userProfileInfoTop width100 flexRow">
+                        <div class="userProfileName_commentTimeColumn">
+                            <p class="userName">Jane Doe</p>
+                            <button class="commentTime">10 min ago</button>
+                        </div>
+                        <a class="replyIcon" href="digitalMarketing.html">
+                            <button class="reply"> <i class="fa-solid fa-reply "></i>Reply</button>
+                        </a>
+                    </div>
+                    <p class="userProfileInfoBottom">Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+            <div class="Comment width100 flexRow">
+                <!-- <div class="userProfilePhoto"></div> -->
+                <img src="img/profile2.jpg" alt="" class="userProfilePhoto">
+                <div class="userProfileInfo width100">
+                    <div class="userProfileInfoTop width100 flexRow">
+                        <div class="userProfileName_commentTimeColumn">
+                            <p class="userName">Jane Doe</p>
+                            <button class="commentTime">5 min ago</button>
+                        </div>
+                        <a class="replyIcon" href="digitalMarketing.html">
+                            <button class="reply"> <i class="fa-solid fa-reply "></i>Reply</button>
+                        </a>
+                    </div>
+                    <p class="userProfileInfoBottom">Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+
+            <div class="Comment width100 flexRow">
+                <!-- <div class="userProfilePhoto"></div> -->
+                <img src="img/profile1.jpg" alt="" class="userProfilePhoto">
+                <div class="userProfileInfo width100">
+                    <div class="userProfileInfoTop width100 flexRow">
+                        <div class="userProfileName_commentTimeColumn">
+                            <p class="userName">Jane Doe</p>
+                            <button class="commentTime">15 min ago</button>
+                        </div>
+                        <a class="replyIcon" href="digitalMarketing.html">
+                            <button class="reply"> <i class="fa-solid fa-reply "></i>Reply</button>
+                        </a>
+                    </div>
+                    <p class="userProfileInfoBottom">Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+
+            <div class="Comment width100 flexRow">
+                <!-- <div class="userProfilePhoto"></div> -->
+                <img src="img/profile2.jpg" alt="" class="userProfilePhoto">
+                <div class="userProfileInfo width100">
+                    <div class="userProfileInfoTop width100 flexRow">
+                        <div class="userProfileName_commentTimeColumn">
+                            <p class="userName">Jane Doe</p>
+                            <button class="commentTime">16 min ago</button>
+                        </div>
+                        <a class="replyIcon" href="digitalMarketing.html">
+                            <button class="reply"> <i class="fa-solid fa-reply "></i>Reply</button>
+                        </a>
+                    </div>
+                    <p class="userProfileInfoBottom">Lorem ipsum dolor
+                        sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+
+            <div class="leaveComment width100">
+                <p class="leaveComment"> Leave Comment</p>
+                <div class="leaveCommentForm ">
+                    <div class="leaveCommentFormTop">
+                        <p class="yourComment leaveInputsTopText">Your Comment</p>
+                        <input type="text" class="inputYourComment digitalMarketingInputFocus"
+                            placeholder="Your Comment"></input>
+                    </div>
+                    <div class="leaveCommentFormBottom flexRow width100">
+                        <div class="leaveCommentBotName flexColumn ">
+                            <label for="" class="leaveCommentBottomName width100 leaveInputsTopText"> Name</label>
+
+                            <!-- <p class="leaveCommentBottomName leaveInputsTopText">Name</p> -->
+                            <input type="text" class="leaveCommentName width100 leaveCommentInput " placeholder="Name">
+                        </div>
+                        <div class="leaveCommentTopMail flexColumn ">
+                            <label for="" class="leaveCommentTopTextMail width100 leaveInputsTopText">Email</label>
+                            <!-- <p class="leaveCommentTopTextMail leaveInputsTopText">Email</p> -->
+                            <input type="email" class="leaveCommentMail width100 leaveCommentInput" placeholder="Email">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="leaveCommentButton">
+                    <button class="leaveCommentBtn">Send Message</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="digitalMarketingSection3 width100 flexColumn">
+        <p class="relatedPostHead width100">Related Post</p>
+        <div class="relatedPostCards width100 flexRow">
+            <div class="relatedPostCard flexColumn">
+                <a href="digitalMarketing.html" class="textDecorNone">
+                    <img src="img/related1.jpg" alt="" class="relatedCardImage width100">
+                    <div class="relatedCardInfo width100 flexColumn">
+                        <p class="relatedCardInfoHead">Digital Marketing</p>
+                        <p class="relatedCardInfoText">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="relatedCardInfoButton flexRow width100">
+                            <button class="relatedCardInfoBtn">Read More</button>
+                            <div class="digitalMInteraction flexRow">
+                                <i class="fa-regular fa-heart digitalMarketinginteractionIcon"> 5 </i>
+                                <i class="fa-regular fa-message digitalMarketinginteractionIcon"> 3 </i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="relatedPostCard flexColumn">
+                <a href="digitalMarketing.html" class="textDecorNone">
+                    <img src="img/related2.jpg" alt="" class="relatedCardImage width100">
+                    <div class="relatedCardInfo width100 flexColumn">
+                        <p class="relatedCardInfoHead">Digital Marketing</p>
+                        <p class="relatedCardInfoText">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="relatedCardInfoButton flexRow width100">
+                            <button class="relatedCardInfoBtn">Read More</button>
+                            <div class="digitalMInteraction flexRow">
+                                <i class="fa-regular fa-heart digitalMarketinginteractionIcon"> 15 </i>
+                                <i class="fa-regular fa-message digitalMarketinginteractionIcon"> 2 </i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="relatedPostCard flexColumn">
+                <a href="digitalMarketing.html" class="textDecorNone">
+                    <img src="img/related3.jpg" alt="" class="relatedCardImage width100">
+                    <div class="relatedCardInfo width100 flexColumn">
+                        <p class="relatedCardInfoHead">App Development</p>
+                        <p class="relatedCardInfoText">Lorem ipsum dolor sit amet consectetur</p>
+                        <div class="relatedCardInfoButton flexRow width100">
+                            <button class="relatedCardInfoBtn">Read More</button>
+                            <div class="digitalMInteraction flexRow ">
+                                <i class="fa-regular fa-heart digitalMarketinginteractionIcon"> 31 </i>
+                                <i class="fa-regular fa-message digitalMarketinginteractionIcon"> 2 </i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerRow flexRow ">
+            <div class="footerRowInColumns marleft_4 alignCenter">
+                <div class="purpleBuzzColumn1 flexRow alignCenter marBottom_9">
+                    <i class="fa-regular fa-building font25 whiteColor marRight_4 cursorPointer"></i>
+                    <p class="FooterRowInColumnsText font20 whiteColor open600family cursorPointer">Purple Buzz</p>
+                </div>
+                <p class="purpleBuzzColumn2 whiteColor font20">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit,
+                    sed do eiusmod tempor incididunt ut.</p>
+                <div class="purpleBuzzColumn3Icons">
+                    <i class="fa-brands fa-square-facebook font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-linkedin font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-flickr font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                    <i class="fa-brands fa-square-whatsapp font35 whiteColor marleft_20 cursorPointer opacity06"></i>
+                </div>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <p class="ourCompanyFooter marleft_28 whiteColor font28 marBottom_9">Our Company </p>
+                <ul class="ourCompanyLists flexColumn listNone">
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Home</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        About Us</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Work</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Price</li>
+                    <li
+                        class="ourCompanyList whiteColor font15 open600family marBottom_6 letterSpacing_1 cursorPointer opacity06">
+                        Contact</li>
+                </ul>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <p class="ourWorksFooter whiteColor font28 marBottom_9">Our Works </p>
+                <ul class="ourWorksLists flexColumn listNone">
+                    <li class="ourWorksList whiteColor font15 open600family marBottom_6 letterSpacing_1">Branding
+                    </li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Business</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Marketing</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Social Media</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Digital Solution</li>
+                    <li
+                        class="ourWorksList whiteColor font15 open600family marBottom_6 cursorPointer letterSpacing_1 opacity06">
+                        Graphic</li>
+                </ul>
+            </div>
+
+            <div class="footerRowInColumns flexColumn alignCenter">
+                <div class="forClient whiteColor font28 marRight_33 marBottom_9">For Client</div>
+                <div class="communicates">
+                    <div
+                        class="communicate whiteColor font15 marBottom_6 letterSpacing_1 open600family opacity06 cursorPointer">
+                        <i
+                            class="fa-solid fa-phone communicateIcon whiteColor marBottom_6 letterSpacing_1 marRight7 "></i>010-020-0340
+                    </div>
+                    <div
+                        class="communicate whiteColor font15 marBottom_6 letterSpacing_1 open600family opacity06 cursorPointer">
+                        <i
+                            class="fa-solid fa-envelope-open-text communicateIcon letterSpacing_1 marBottom_6 whiteColor marRight7"></i>info@company.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerRow2">
+            <p class="footerRow2Text whiteColor letterSpacing_1">© Copyright 2021 Purple Buzz Company. All Rights
+                Reserved. </p>
+            <div class="flexRow footerRow2Son width40">
+                <p class="footerRow2Text2 whiteColor letterSpacing_1 marLeft16">The frontend design was made by </p>
+                <!-- <p class="frontendDesign whiteColor letterSpacing_1 marLeft1">BETÜL BÜYÜKZENGİN</p> -->
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
